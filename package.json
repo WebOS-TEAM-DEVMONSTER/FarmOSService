@@ -2,7 +2,7 @@
     "name": "com.devmonster.farmos.service",
     "version": "1.0.0",
     "description": "Helloworld service",
-    "main": "helloworld_webos_service.js",
+    "main": "main_service.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "postinstall": "patch-package"
@@ -10,6 +10,7 @@
     "author": "",
     "license": "BSD",
     "dependencies": {
-        "@types/webos-service": "^0.4.6"
+        "@types/webos-service": "^0.4.6",
+        "mqtt": "^5.10.1"
     }
 }
