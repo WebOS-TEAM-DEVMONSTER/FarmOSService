@@ -11,6 +11,9 @@
     "license": "BSD",
     "dependencies": {
         "@types/webos-service": "^0.4.6",
+        "axios": "^1.7.7",
+        "form-data": "^4.0.1",
+        "fs": "^0.0.1-security",
         "moment": "^2.30.1",
         "mqtt": "^5.10.1"
     }
